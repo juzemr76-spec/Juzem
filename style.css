@@ -1,0 +1,53 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  line-height: 1;
+  background-color: rgb(247, 161, 247) ;
+}
+
+header {
+  background: hsl(320, 61%, 48%);
+  padding: 0.6rem;
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 1rem;
+}
+
+#lista-projetos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.projeto {
+  border: 1px solid violet;
+  padding: 1rem;
+  border-radius: 8px;
+  background: blanchedalmond;
+}
+
+
+footer {   
+  text-align: center;
+  background: hsl(320, 61%, 48%);
+  color: white;
+  padding: 1rem;
+}
